@@ -15,7 +15,7 @@ void ChessboardSquare::setY(int y)
 
 bool ChessboardSquare::isWhite()
 {
-	return (this->x + this->y) %  2 != 0;
+	return (this->x + this->y) % 2 != 0;
 }
 
 void ChessboardSquare::printDescription()
